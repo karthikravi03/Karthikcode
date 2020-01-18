@@ -16,7 +16,7 @@ public class Steps {
 	@Given("^Navigate to flipkart site$")
 	public void navigate_to_flipkart_site() throws Throwable 
 	{
-	    // Write code here that turns the phrase above into concrete actions
+	    // Write code here that turns the phrase above into concrete actions.
 		 System.setProperty("webdriver.chrome.driver", "src/test/resources/chromedriver.exe");
 		  driver = new ChromeDriver();
 		  driver.manage().window().maximize();
